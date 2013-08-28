@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2013 SlimRoms Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <!-- Toast that appears when an attachment has no size. -->
+    <string name="message_compose_attachment_no_size">Пустой файл.</string>
+
+    <!-- First category in general security preferences -->
+    <string name="category_general_security_preferences">Безопасность</string>
+    <!-- Notifications in general preferences -->
+    <string name="category_general_notification_preferences">Кнопки уведомления</string>
+    <string name="general_preference_notification_mark_as_read_label">Прочитано</string>
+    <string name="general_preference_notification_mark_as_read_summary">Показывать кнопку \"Прочитано\" в уведомлениях о новом письме</string>
+    <string name="general_preference_notification_delete_label">Удалить</string>
+    <string name="general_preference_notification_delete_summary">Показывать кнопку \"Удалить\" в уведомлениях о новом письме</string>
+    <string name="general_preference_notification_reply_label">Ответить</string>
+    <string name="general_preference_notification_reply_summary">Показывать кнопку \"Ответить\" в уведомлениях о новом письме</string>
+
+    <!-- Security preference: The title of the setting with the list of blocked attachment extensions" -->
+    <string name="security_preferences_blocked_attachment_extensions_title">Заблокированные вложения</string>
+    <!-- Security preference: The summary of the setting with the list of blocked attachment extensions" -->
+    <string name="security_preferences_blocked_attachment_extensions_summary">Выбрать тип вложений, которые будут заблокированы от просмотра и сохранения</string>
+
+</resources>
