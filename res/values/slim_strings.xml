@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2013 SlimRoms Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <!-- Toast that appears when an attachment has no size. -->
+    <string name="message_compose_attachment_no_size">Empty file.</string>
+
+    <!-- First category in general security preferences -->
+    <string name="category_general_security_preferences">Security</string>
+    <!-- Notifications in general preferences -->
+    <string name="category_general_notification_preferences">Notification buttons</string>
+    <string name="general_preference_notification_mark_as_read_label">Mark as read</string>
+    <string name="general_preference_notification_mark_as_read_summary">Show mark as read button on new email notifications</string>
+    <string name="general_preference_notification_delete_label">Delete</string>
+    <string name="general_preference_notification_delete_summary">Show delete button on new email notifications</string>
+    <string name="general_preference_notification_reply_label">Reply</string>
+    <string name="general_preference_notification_reply_summary">Show reply button on new email notifications</string>
+
+    <!-- Security preference: The title of the setting with the list of blocked
+         attachment extensions" -->
+    <string name="security_preferences_blocked_attachment_extensions_title">
+         Blocked attachments</string>
+    <!-- Security preference: The summary of the setting with the list of blocked
+         attachment extensions" -->
+    <string name="security_preferences_blocked_attachment_extensions_summary">
+         Select the attachment types that are blocked from viewing or saving</string>
+
+</resources>
