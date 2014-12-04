@@ -245,13 +245,15 @@ public class AccountReconciler {
                 final String protocol = EmailServiceUtils.getProtocolFromAccountType(
                         context, accountType);
                 final EmailServiceInfo info = EmailServiceUtils.getServiceInfo(context, protocol);
-                if (!info.syncCalendar) {
-                    ContentResolver.setIsSyncable(accountManagerAccount,
-                            CalendarContract.AUTHORITY, 0);
-                }
-                if (!info.syncContacts) {
-                    ContentResolver.setIsSyncable(accountManagerAccount,
-                            ContactsContract.AUTHORITY, 0);
+                if (info != null) {
+                    if (!info.syncCalendar) {
+                        ContentResolver.setIsSyncable(accountManagerAccount,
+                                CalendarContract.AUTHORITY, 0);
+                    }
+                    if (!info.syncContacts) {
+                        ContentResolver.setIsSyncable(accountManagerAccount,
+                                ContactsContract.AUTHORITY, 0);
+                    }
                 }
             }
         }
